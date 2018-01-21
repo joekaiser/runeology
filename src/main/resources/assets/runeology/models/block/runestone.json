@@ -1,6 +1,57 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "runeology:blocks/runestone"
-  }
+    "all": "runeology:blocks/runestone",
+    "particle": "runeology:blocks/runestone"
+  },
+"elements": [
+        {
+            "name": "Cube",
+            "from": [ 3.0, 0.0, 0.0 ], 
+            "to": [ 13.0, 16.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 16.0 ]  },
+                "east": { "texture": "#all", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "south": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 16.0 ] },
+                "west": { "texture": "#all", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "down": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 16.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.0, 16.0, 0.0 ], 
+            "to": [ 13.0, 24.0, 4.0 ], 
+            "faces": {
+                "north": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+                "east": { "texture": "#all", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "south": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 8.0 ] },
+                "west": { "texture": "#all", "uv": [ 0.0, 0.0, 4.0, 8.0 ] },
+                "up": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 4.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.0, 16.0, 4.0 ], 
+            "to": [ 13.0, 27.0, 14.0 ], 
+            "faces": {
+                "north": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 11.0 ] },
+                "east": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 11.0 ] },
+                "south": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 11.0 ] },
+                "west": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 11.0 ] },
+                "up": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 10.0 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 3.0, 16.0, 14.0 ], 
+            "to": [ 13.0, 25.0, 16.0 ], 
+            "faces": {
+                "north": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 9.0 ] },
+                "east": { "texture": "#all", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+                "south": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 9.0 ] },
+                "west": { "texture": "#all", "uv": [ 0.0, 0.0, 2.0, 9.0 ] },
+                "up": { "texture": "#all", "uv": [ 0.0, 0.0, 10.0, 2.0 ] }
+            }
+        }
+    ]
 }
